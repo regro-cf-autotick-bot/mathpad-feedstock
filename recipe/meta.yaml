@@ -1,5 +1,5 @@
 {% set name = "mathpad" %}
-{% set version = "2.0.1" %}
+{% set version = "2.1.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mathpad-{{ version }}.tar.gz
-  sha256: e15e4df2b317e79d6777ebceaecbd59c5032a3ba54940fd846f7af2763122a38
+  sha256: ec27856fa9d5a517f033bc4495d09fc5ab610a0d3dbb854a132b14d03848f254
 
 build:
   number: 0
